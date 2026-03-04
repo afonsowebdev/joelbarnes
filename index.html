@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <nav class="navbar bg-body-tertiary fixed-top">
             <div class="container">
@@ -25,12 +26,11 @@
                 <div class="group-right d-flex align-items-center gap-3">
 
                     <div class="social-links d-flex align-items-center gap-1">
-                        <a href="#" target="_blank" class="social-link linkedin">
-                            <i class='bx bxl-linkedin '></i></a>
-                        <a href="#" target="_blank" class="social-link github"><i
-                                class='bx bxl-github'></i></a>
-                        <a href="#" class="social-link instagram">
-                            <i class='bx bxl-instagram'></i></a>
+
+                        <button class="btn btn-social">
+                            <a href="#" class="social-link instagram">
+                                <i class='bx bxl-instagram'></i></a>
+                        </button>
 
                         <button class="btn btn-dark-mode">
                             <i class='bx bx-moon dark-mode'></i>
@@ -52,10 +52,10 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                                <a class="nav-link active" aria-current="page" href="#hero">Início</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre mim</a>
+                                <a class="nav-link" href="#about">Sobre mim</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Albuns</a>
@@ -72,6 +72,70 @@
             </div>
         </nav>
     </header>
+    <!-- End Header -->
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-column align-items-center justify-content-center text-center">
+                    <img src="/assets/img/hero-img/img-joel-bornes-05.jpeg" alt="Joe L Barnes"
+                        class="img-fluid rounded">
+
+                    <div class="hero-info text-center mt-4">
+                        <h1 class="hero-title">Joe L Barnes</h1>
+
+                        <p class="hero-description text-center">
+                            Uma voz que transcende notas, levando corações à adoração
+                        </p>
+
+                        <p class="hero-description text-center">
+                            Cantor, Compositor, Líder de Adoração e Cristão
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link instagram">
+                                <i class='bx bxl-instagram'></i></a>
+
+                            <a href="" class="social-link spotify">
+                                <i class='bx bxl-spotify'></i></a>
+
+                            <a href="" class="social-link youtube">
+                                <i class='bx bxl-youtube'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h2 class="about-title">Sobre Joe L Barnes</h2>
+                    <p class="about-description">
+                        Joe L Barnes é um cantor, compositor e líder de adoração americano, conhecido por sua voz
+                        poderosa e emotiva. Ele é membro do grupo de música cristã contemporânea Maverick City Music,
+                        onde tem contribuído com suas habilidades vocais e composições inspiradoras. Com uma carreira em
+                        ascensão, Joe L Barnes tem cativado o público com suas performances emocionantes e letras que
+                        tocam o coração, tornando-se uma figura proeminente na cena musical cristã.
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="/assets/img/about-img/img-joel-barnes-06.jpeg" alt="Sobre Joe L Barnes"
+                        class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!--  -->
+    <!-- End Section  -->
+
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
